@@ -1,0 +1,234 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+
+.mainheader {
+	text-align:center;
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+input {outline: none;}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #fff !important;
+    -webkit-text-fill-color: #404040 !important;
+    color: #404040 !important;
+}
+
+.bg-red {
+	background-image: url(../img/bg-red.jpg);
+}
+.bg-orange {
+	background-image: url(../img/bg-orange.jpg);
+}
+.bg-yellow {
+	background-image: url(../img/bg-yellow.jpg);
+}
+.bg-green {
+	background-image: url(../img/bg-green.jpg);
+}
+.bg-cyan {
+	background-image: url(../img/bg-cyan.jpg);
+}
+.bg-blue {
+	background-image: url(../img/bg-blue.jpg);
+}
+.bg-purple {
+	background-image: url(../img/bg-purple.jpg);
+}
+.bg-pink {
+	background-image: url(../img/bg-pink.jpg);
+}
+.bg-black {
+	background-image: url(../img/bg-black.jpg);
+}
+
+.bg-2015 {
+	/* background-image: url(../img/bg-2018.png);
+	background-repeat: repeat;
+	background-size: initial; */
+	background: #16244b;
+}
+
+.body {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 40px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.body-s {
+	max-width: 400px;
+}
+.modal {
+	padding: 25px 30px;
+	background: rgba(255,255,255,0.9);
+	font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #666;
+}
+.modal a {
+	color: #2da5da;
+}
+.ui-datepicker-calendar td.package-date {
+	background-color: #F5C777;
+}
+
+.ui-datepicker-calendar td.package-date.ui-state-disabled{
+	background-color: #FFFFFF;
+}
+
+.ui-datepicker-calendar td.hotel-date {
+	//border: 1px solid black;
+}
+.sky-form em.invalid {
+	display: block;
+	/* color: green; */
+	color: red;
+	line-height: 12px;
+	font-size: 12px;
+	font-style: italic;
+	padding: 5px 0 0 0;
+	margin: 0;
+}
+.icon-minus,
+.icon-plus {
+
+}
+.sky-form .icon-append, .sky-form .icon-prepend {
+    color: #666;
+}
+.sky-form .state-disabled .fa-plus,
+.sky-form .state-disabled .fa-minus,
+.sky-form .fa-plus.state-disabled,
+.sky-form .fa-minus.state-disabled {
+    color: #e5e5e5;
+}
+
+.sky-form .state-error input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #fff0f0 !important;
+    -webkit-text-fill-color: #404040 !important;
+    color: #404040 !important;
+}
+
+.message-info fieldset {
+    padding: 14px 30px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    margin-left: 0px;
+    border-bottom: 1px solid #ccc;
+    color: #3398d9;
+}
+
+.ui-datepicker-calendar td[colspan="7"] {
+    font-size: 13px;
+    line-height: 19px;
+    padding: 5px 10px;
+    background: #f1c373;
+	color:#000000;
+}
+
+
+#reservation-form header button {
+    margin-top: 0px;
+}
+
+.promo-area {/* display:none; */}
+
+.private-babysitter {
+	margin-left: 27px;
+	margin-top: -5px;
+}
+
+.disabled {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+}
+
+.popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.1);
+	transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.popup-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 1rem 1.5rem;
+	width: 24rem;
+	border-radius: 0.5rem;
+}
+.popup span.close-popup {
+	float: right;
+	width: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	background-color: lightgray;
+}
+.popup span.close-popup:hover {
+	background-color: darkgray;
+}
+.show-popup {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.0);
+	transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.toggle-panel {
+	display: none;
+}
+.toggle-panel.active {
+	display: block;
+}
+.toggle-panel section {
+	overflow: unset;
+}
+.sky-form .note-error {
+	color: red;
+}
+.toggle-link {
+	cursor: pointer;
+}
+.mainheader {
+	text-align: left;
+	position: relative;
+}
+.mainheader .login-form {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.login-form {
+	color: #ffffff;
+	text-align: right;
+	font: 18px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.login-form a {
+	color: #c98f7c;
+	text-decoration: none;
+}
