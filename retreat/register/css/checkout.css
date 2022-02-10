@@ -1,0 +1,111 @@
+.priceLabel {
+	clear: both;
+	float: left;
+	margin-top: 5px;
+	margin-left: 424px;
+	width: 140px;
+	text-align: left;
+	font-family: 'Arial Bold', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;	
+}
+.priceField {
+	float: right;
+	margin-top: 5px;
+	margin-right: 50px;
+	width: 85px;
+	text-align: right;
+	font-family: 'Arial Regular', Arial, sans-serif;
+	font-size: 14px;
+}
+.labelDiv {
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+	width: 200px;
+	font-family: 'Arial Bold', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+#divSponsorshipNotes  {
+	margin: 10px 0px 5px 0px;
+}
+#divErrors {
+	width: 80%;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid rgb(255, 0, 0);
+	background-color: rgb(255, 220, 220);
+	color: rgb(255, 0, 0);
+}
+.fieldDiv {
+	float: right;
+	margin-bottom: 10px;
+	width: 450px;
+	text-align: left;
+}
+	.fieldDiv select, .fieldDiv input[type=text], .fieldDiv textarea {
+		border: 2px solid #e5e5e5;
+		width: 373px;
+		box-sizing: border-box;
+		padding: 6px 10px;
+		outline: none;							
+		font: 15px/23px 'Open Sans', Helvetica, Arial, sans-serif;
+		color: #404040;
+		text-align: start;
+	}
+	.fieldDiv select.expirationMonth,.fieldDiv select.expirationYear  {
+		width:100px;
+	} 
+	.fieldExplanation {
+		font-family: 'Arial Regular', Arial;
+		font-size: 11px;
+		text-align: left;
+	}
+	.errorMessage {
+		font-family: 'Arial Regular', Arial;
+		font-size: 11px;
+		text-align: left;
+		color: rgb(255, 0, 0);
+	}
+	input.error, select.error {
+		border-color: rgb(255, 0, 0);
+		background-color: rgb(255, 220, 220);
+	}
+
+.checkoutButton, .backButton {
+	display: block;
+	float: right;
+	border: 0px;
+	margin: 10px;
+	width: 100px;
+	height: 40px;
+	font-family: 'Arial Regular', Arial;
+	font-size: 13px;
+	line-height: 40px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+.checkoutButton {
+	background: #16244b;
+}
+.checkoutButton.disabled {
+	background: rgb(153, 153, 153);
+	cursor: default;
+}
+.backButton {
+	background: rgb(153, 153, 153);
+}
+.showSpacer { 
+			/* background-image: url('/retreat/img/bg-2015.jpg');
+			background-repeat: repeat;
+			background-size: initial; */
+			background: #16244b;
+			height:25px;
+		 }
+.content {padding:25px;}
+#divAuthorizeNetSeal {
+	float: right;
+}
