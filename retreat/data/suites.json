@@ -1,0 +1,1963 @@
+{
+  "room_types": {
+    "Park or Center Tower Deluxe Room": {
+      "available": true,
+      "occupancies": {
+        "Single Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 190,
+                  "early_bird_price": 190
+                },
+                "Teen": {
+                  "price": 190,
+                  "early_bird_price": 190
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-15",
+              "guest_types": {
+                "Adult": {
+                  "price": 850
+                },
+                "Teen": {
+                  "price": 850
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "omni-deluxe-1.jpg",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed",
+                "1": "2 Full Beds"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "1": "Adult"
+              }
+            },
+            "max": {
+              "0": {
+                "1": "Adult"
+              },
+              "1": {
+                "0": "Teen"
+              },
+              "2": {
+                "0": "Child"
+              },
+              "3": {
+                "0": "Toddler"
+              }
+            }
+          },
+          "max_guest_message": "To add more than 1 guest, please choose double occupancy, or select the 'Add a Room' option below.",
+          "tax": "0"
+        },
+        "Double Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Child": {
+                  "price": 200,
+                  "early_bird_price": 200
+                },
+                "Toddler": {
+                  "price": 180,
+                  "early_bird_price": 180
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 95,
+                  "early_bird_price": 95
+                },
+                "Teen": {
+                  "price": 95,
+                  "early_bird_price": 95
+                },
+                "Child": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Toddler": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-16",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed",
+                "1": "2 Double Beds"
+
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            }
+          },
+          "min_guest_message": "Double occupancy requires a minimum of 2 guests.",
+          "max_guest_message": "To register more than four guests to the Omni Deluxe Room. To register more guests, select the 'Add a Room' option below."
+        },
+        "3rd or 4th Room": {
+          "dates": {
+            "0": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": {
+                  "price": 1100
+                },
+                "Toddler": {
+                  "price": 990
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": {
+                  "price": 880
+                },
+                "Toddler": {
+                  "price": 792
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "2": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": {
+                  "price": 660
+                },
+                "Toddler": {
+                  "price": 594
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed",
+                "1": "2 Double Beds"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "4": "Adult"
+              },
+              "1": {
+                "4": [
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+
+              }
+            },
+            "max_persons": 4
+          },
+          "tax": "0"
+        }
+      },
+      "image": "omni-deluxe1.jpg",
+      "description": ".",
+      "tax": "0"
+    },
+
+    "Wardman Tower Deluxe Room": {
+      "available": true,
+      "occupancies": {
+        "Single Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1240
+                },
+                "Teen": {
+                  "price": 1240
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 341
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 341
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 170,
+                  "early_bird_price": 170
+                },
+                "Teen": {
+                  "price": 170,
+                  "early_bird_price": 170
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-15",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "1": "Adult"
+              }
+            },
+            "max": {
+              "0": {
+                "1": "Adult"
+              },
+              "1": {
+                "0": "Teen"
+              },
+              "2": {
+                "0": "Child"
+              },
+              "3": {
+                "0": "Toddler"
+              }
+            }
+          },
+          "max_guest_message": "To add more than 1 guest, please choose double occupancy, or select the 'Add a Room' option below.",
+          "tax": "0"
+        },
+        "Double Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Child": {
+                  "price": 200,
+                  "early_bird_price": 200
+                },
+                "Toddler": {
+                  "price": 180,
+                  "early_bird_price": 180
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 85,
+                  "early_bird_price": 85
+                },
+                "Teen": {
+                  "price": 85,
+                  "early_bird_price": 85
+                },
+                "Child": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Toddler": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-16",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+
+
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            }
+          },
+          "min_guest_message": "Double occupancy requires a minimum of 2 guests.",
+          "max_guest_message": "o register more than four guests to the Omni Suite. To register more guests, select the 'Add a Room' option below. "
+        },
+        "3rd or 4th Room": {
+          "dates": {
+            "0": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": {
+                  "price": 1000
+                },
+                "Toddler": {
+                  "price": 990
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": {
+                  "price": 880
+                },
+                "Toddler": {
+                  "price": 792
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "2": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": {
+                  "price": 660
+                },
+                "Toddler": {
+                  "price": 594
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "3": "Adult"
+              }
+            },
+            "max": {
+              "0": {
+                "3": "Adult"
+              },
+              "1": {
+                "4": [
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max_persons": 4
+          },
+          "tax": "0"
+        }
+      },
+      "image": "",
+      "description": "",
+      "tax": "0"
+    },
+    "Park or Center Tower Junior Suite": {
+      "available": true,
+      "occupancies": {
+        "Single Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 341
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 341
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 325,
+                  "early_bird_price": 325
+                },
+                "Teen": {
+                  "price": 325,
+                  "early_bird_price": 325
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-15",
+              "guest_types": {
+                "Adult": {
+                  "price": 792
+                },
+                "Teen": {
+                  "price": 792
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "1": "Adult"
+              }
+            },
+            "max": {
+              "0": {
+                "1": "Adult"
+              },
+              "1": {
+                "0": "Teen"
+              },
+              "2": {
+                "0": "Child"
+              },
+              "3": {
+                "0": "Toddler"
+              }
+            }
+          },
+          "max_guest_message": "To add more than 1 guest, please choose double occupancy, or select the 'Add a Room' option below.",
+          "tax": "0"
+        },
+        "Double Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Teen": {
+                  "price": 425,
+                  "early_bird_price": 425
+                },
+                "Child": {
+                  "price": 200,
+                  "early_bird_price": 200
+                },
+                "Toddler": {
+                  "price": 180,
+                  "early_bird_price": 180
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 162.5,
+                  "early_bird_price": 162.5
+                },
+                "Teen": {
+                  "price": 162.5,
+                  "early_bird_price": 162.5
+                },
+                "Child": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Toddler": {
+                  "price": 0,
+                  "early_bird_price": 0
+                },
+                "Infant": {
+                  "price": 0,
+                  "early_bird_price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-16",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            }
+          },
+          "min_guest_message": "Double occupancy requires a minimum of 2 guests.",
+          "max_guest_message": "The maximum number of guests per room is 2. To register more guests, select the 'Add a Room' option below. (The Biltmore Suites can host 4 guests per room)."
+        },
+        "3rd or 4th Room": {
+          "dates": {
+            "0": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": {
+                  "price": 1000
+                },
+                "Toddler": {
+                  "price": 990
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": {
+                  "price": 880
+                },
+                "Toddler": {
+                  "price": 792
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "2": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": {
+                  "price": 660
+                },
+                "Toddler": {
+                  "price": 594
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "1 King Bed"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max_persons": 2
+          },
+          "tax": "0"
+        }
+      },
+      "image": "",
+      "description": "",
+      "tax": "0"
+    },
+    "Park or Center Tower Executive Suite": {
+      "available": true,
+      "occupancies": {
+        "Single Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 475
+                },
+                "Teen": {
+                  "price": 475
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-16",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "2 King Beds"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "1": "Adult"
+              }
+            },
+            "max": {
+              "0": {
+                "1": "Adult"
+              },
+              "1": {
+                "0": "Teen"
+              },
+              "2": {
+                "0": "Child"
+              },
+              "3": {
+                "0": "Toddler"
+              }
+            }
+          },
+          "max_guest_message": "To add more than 1 guest, please choose double occupancy, or select the 'Add a Room' option below.",
+          "tax": "0"
+        },
+        "Double Occupancy": {
+          "dates": {
+            "0": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "2": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": null,
+                "Toddler": null,
+                "Infant": null
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "4": {
+              "count": 1,
+              "type": "hotel",
+              "start_date": "2019-08-11",
+              "end_date": "2019-08-20",
+              "guest_types": {
+                "Adult": {
+                  "price": 237.5
+                },
+                "Teen": {
+                  "price": 237.5
+                },
+                "Child": {
+                  "price": 0
+                },
+                "Toddler": {
+                  "price": 0
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "5": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-16",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Toddler": null,
+                "Child": null,
+                "Infant": null
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "2 King Beds"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+
+                ]
+              }
+            }
+          },
+          "min_guest_message": "Double occupancy requires a minimum of 2 guests.",
+          "max_guest_message": "To register more than four guests please select the 'Add a Room' option below..",
+          "tax": "0"
+        },
+        "3rd or 4th Room": {
+          "dates": {
+            "0": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": {
+                  "price": 1000
+                },
+                "Toddler": {
+                  "price": 990
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": {
+                  "price": 880
+                },
+                "Toddler": {
+                  "price": 792
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "2": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": {
+                  "price": 660
+                },
+                "Toddler": {
+                  "price": 594
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": {
+            "persons": {
+              "1": {
+                "0": "2 King Beds"
+              }
+            }
+          },
+          "persons": {
+            "min": {
+              "0": {
+                "2": [
+                  "Adult",
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+              }
+            },
+            "max": {
+              "0": {
+                "4": "Adult"
+              },
+              "1": {
+                "4": [
+                  "Teen",
+                  "Child",
+                  "Toddler"
+                ]
+
+              }
+            },
+            "max_persons": 4
+          },
+          "tax": "0"
+        }
+      },
+      "image": "",
+      "description": ""
+    },
+
+
+    "No Rooming": {
+      "occupancies": {
+        "None": {
+          "dates": {
+            "0": {
+              "count": 5,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1975
+                },
+                "Teen": {
+                  "price": 1975
+                },
+                "Child": {
+                  "price": 1000
+                },
+                "Toddler": {
+                  "price": 990
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "1": {
+              "count": 4,
+              "type": "program",
+              "start_date": "2019-08-14",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1630
+                },
+                "Teen": {
+                  "price": 1630
+                },
+                "Child": {
+                  "price": 880
+                },
+                "Toddler": {
+                  "price": 792
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "2": {
+              "count": 3,
+              "type": "program",
+              "start_date": "2019-08-15",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 1265
+                },
+                "Teen": {
+                  "price": 1265
+                },
+                "Child": {
+                  "price": 660
+                },
+                "Toddler": {
+                  "price": 594
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            },
+            "3": {
+              "count": 1,
+              "type": "program",
+              "start_date": "2019-08-13",
+              "end_date": "2019-08-18",
+              "guest_types": {
+                "Adult": {
+                  "price": 425
+                },
+                "Teen": {
+                  "price": 425
+                },
+                "Child": {
+                  "price": 200
+                },
+                "Toddler": {
+                  "price": 180
+                },
+                "Infant": {
+                  "price": 0
+                }
+              }
+            }
+          },
+          "image": "",
+          "description": "",
+          "bedding": null,
+          "persons": {
+            "min": {
+              "0": {
+                "1": "Adult"
+              }
+            },
+            "max": {}
+          }
+        }
+      },
+      "image": "",
+      "description": ""
+    }
+  },
+  "program_tax": "0",
+  "half_day_offset": {
+    "Adult": 212.50,
+    "Teen": 212.50,
+    "Child": 140,
+    "Toddler": 130,
+    "Infant": 0
+  },
+  "crib_price": "25",
+  "rollaway_price": "25",
+  "staff": {
+    "babysitter": {
+      "label": "Group Babysitting",
+      "count": 1,
+      "related_guest": "Infant",
+      "dates": {
+        "2019-08-13": {
+          "name": "day2",
+          "label": "Tuesday, August 13 ($40)",
+          "price": 44
+        },
+        "2019-08-14": {
+          "name": "day3",
+          "label": "Wednesday, Aug 14 ($80)",
+          "price": 88
+        },
+        "2019-08-14 03:00pm": {
+          "name": "day3",
+          "label": "Wednesday, Aug 14 ($40)",
+          "price": 44
+        },
+        "2019-08-15": {
+          "name": "day4",
+          "label": "Thursday, Aug 15 ($80)",
+          "price": 88
+        },
+        "2019-08-15 03:00pm": {
+          "name": "day4",
+          "label": "Thursday, Aug 15 ($40)",
+          "price": 44
+        },
+        "2019-08-16": {
+          "name": "day5",
+          "label": "Friday, Aug 16 ($80)",
+          "price": 88
+        },
+        "2019-08-16 03:00pm": {
+          "name": "day5",
+          "label": "Friday, Aug 16 ($40)",
+          "price": 44
+        },
+        "2019-08-17": {
+          "name": "day6",
+          "label": "Shabbat, Aug 16 ($80)",
+          "price": 88
+        },
+        "2019-08-17 03:00pm": {
+          "name": "day6",
+          "label": "Shabbat, Aug 16 ($40)",
+          "price": 44
+        },
+        "2019-08-18": {
+          "name": "day7",
+          "label": "Sunday, Aug 17 ($40)",
+          "price": 44
+        }
+      }
+    }
+  }
+}
