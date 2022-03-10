@@ -1,25 +1,82 @@
+/* Additional fonts */
+/********************/
+/* Grotesk Family   */
+@font-face {
+    font-family: 'GroteskLight';
+    src: url("fonts/FoundersGroteskText-Light.otf");
+}
+@font-face{
+    font-family: 'GroteskRegular';
+    src: url("fonts/FoundersGroteskText-Regular.otf");
+}
+@font-face {
+    font-family: 'GroteskSemiBold';
+    src: url('fonts/FoundersGroteskText-Semibold.otf');
+}
+@font-face {
+    font-family: 'GroteskBold';
+    src: url('fonts/FoundersGroteskText-Bold.otf');
+}
+@font-face {
+    font-family: 'GroteskMedium';
+    src: url('fonts/FoundersGroteskText-Medium.otf');
+}
+
+/* Canela Family */
+@font-face{
+    font-family: 'CanelaLightItalic';
+    src: url('fonts/Canela-LightItalic.otf');
+}
+@font-face{
+    font-family: 'CanelaRegular';
+    src:url('fonts/Canela-Regular.otf')
+}
+
+/* Freight Family */
+@font-face {
+    font-family: 'FreightSemiBold';
+    src: url('fonts/Freight Neo Pro Semibold.otf');
+}
+@font-face {
+    font-family: 'FreightBookItalic';
+    src: url('fonts/Freight Neo Pro Book Italic.otf');
+}
+@font-face {
+    font-family: 'FreightMedium';
+    src: url('fonts/Freight Neo Pro Medium.otf');
+}
+@font-face {
+    font-family: 'FreightMediumItalic';
+    src: url('fonts/Freight Neo Pro Medium Italic.otf');
+}
+
+
+
+
 /**/
 /* normal state */
 /**/
 .sky-form .toggle i:before {
-	background-color: #222;	
+	background-color: #b79b6e;	
 }
 .sky-form .button {
-	background-color: #16244b;
+	background-color: #29326e;
 }
 
 .sky-form .button.button-secondary {
-  background-color: #c98f7c;
+  background-color: #b79b6e;
 }
 
 .sky-form header {
 	display: block;
 	padding: 20px 30px;	
 	border-bottom: 1px solid rgba(0,0,0,.1);
-	background: #c98f7c;
-	font-size: 25px;
-	font-weight: 300;
-	color: #ffffff;
+	background: #b79b6e;
+	/* font-size: 50px; */
+	font-size: 40px;
+	/* font-weight: 300; */
+	color: #f2e4d6;
+	font-family:"CanelaRegular"
 }
 
 /**/
@@ -57,16 +114,16 @@
 /* checked state */
 /**/
 .sky-form .radio input + i:after {
-	background-color: #222;	
+	background-color: #b79b6e;	
 }
 .sky-form .checkbox input + i:after {
-	color: #222;
+	color: #b79b6e;
 }
 .sky-form .radio input:checked + i,
 .sky-form .checkbox input:checked + i,
 .sky-form .toggle input:checked + i {
-	border-color: #222;	
+	border-color: #b79b6e;	
 }
 .sky-form .rating input:checked ~ label {
-	color: #222;	
+	color: #b79b6e;	
 }

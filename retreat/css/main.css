@@ -6,6 +6,58 @@ html, body {
 	background-size: cover;
 }
 
+/* Additional fonts */
+/********************/
+/* Grotesk Family   */
+@font-face {
+    font-family: 'GroteskLight';
+    src: url("fonts/FoundersGroteskText-Light.otf");
+}
+@font-face{
+    font-family: 'GroteskRegular';
+    src: url("fonts/FoundersGroteskText-Regular.otf");
+}
+@font-face {
+    font-family: 'GroteskSemiBold';
+    src: url('fonts/FoundersGroteskText-Semibold.otf');
+}
+@font-face {
+    font-family: 'GroteskBold';
+    src: url('fonts/FoundersGroteskText-Bold.otf');
+}
+@font-face {
+    font-family: 'GroteskMedium';
+    src: url('fonts/FoundersGroteskText-Medium.otf');
+}
+
+/* Canela Family */
+@font-face{
+    font-family: 'CanelaLightItalic';
+    src: url('fonts/Canela-LightItalic.otf');
+}
+@font-face{
+    font-family: 'CanelaRegular';
+    src:url('fonts/Canela-Regular.otf')
+}
+
+/* Freight Family */
+@font-face {
+    font-family: 'FreightSemiBold';
+    src: url('fonts/Freight Neo Pro Semibold.otf');
+}
+@font-face {
+    font-family: 'FreightBookItalic';
+    src: url('fonts/Freight Neo Pro Book Italic.otf');
+}
+@font-face {
+    font-family: 'FreightMedium';
+    src: url('fonts/Freight Neo Pro Medium.otf');
+}
+@font-face {
+    font-family: 'FreightMediumItalic';
+    src: url('fonts/Freight Neo Pro Medium Italic.otf');
+}
+
 
 .mainheader {
 	text-align:center;
@@ -88,7 +140,7 @@ input:-webkit-autofill {
 }
 
 .ui-datepicker-calendar td.hotel-date {
-	//border: 1px solid black;
+	border: 1px solid black;
 }
 .sky-form em.invalid {
 	display: block;
@@ -105,13 +157,14 @@ input:-webkit-autofill {
 
 }
 .sky-form .icon-append, .sky-form .icon-prepend {
-    color: #666;
+    color: #b79b6e;
+	/* border: none; */
 }
 .sky-form .state-disabled .fa-plus,
 .sky-form .state-disabled .fa-minus,
 .sky-form .fa-plus.state-disabled,
 .sky-form .fa-minus.state-disabled {
-    color: #e5e5e5;
+    color: #b79b6e;
 }
 
 .sky-form .state-error input:-webkit-autofill {
@@ -229,6 +282,27 @@ input:-webkit-autofill {
 	font: 18px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .login-form a {
-	color: #c98f7c;
+	color: #b79b6e;
 	text-decoration: none;
 }
+strong{
+	color: #b79b6e;
+}
+/* ul{
+	list-style-type: none;
+} */
+.test{
+	padding: 100px;
+}
+li{
+	/* display: block; */
+	font-family: "GroteskLight";
+	/* background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
+	background-image: url(../icons/bullet_point.svg);
+	/* background-color: #b79b6e; */
+	/* background-repeat: no-repeat;  */
+	/* height: 100px; */
+
+	/* list-style: url(../icons/bullet_point.svg); */
+}
+

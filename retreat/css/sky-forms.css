@@ -2,7 +2,57 @@
 /* font */
 /**/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+/* Additional fonts */
+/********************/
+/* Grotesk Family   */
+@font-face {
+    font-family: 'GroteskLight';
+    src: url("fonts/FoundersGroteskText-Light.otf");
+}
+@font-face{
+    font-family: 'GroteskRegular';
+    src: url("fonts/FoundersGroteskText-Regular.otf");
+}
+@font-face {
+    font-family: 'GroteskSemiBold';
+    src: url('fonts/FoundersGroteskText-Semibold.otf');
+}
+@font-face {
+    font-family: 'GroteskBold';
+    src: url('fonts/FoundersGroteskText-Bold.otf');
+}
+@font-face {
+    font-family: 'GroteskMedium';
+    src: url('fonts/FoundersGroteskText-Medium.otf');
+}
 
+/* Canela Family */
+@font-face{
+    font-family: 'CanelaLightItalic';
+    src: url('fonts/Canela-LightItalic.otf');
+}
+@font-face{
+    font-family: 'CanelaRegular';
+    src:url('fonts/Canela-Regular.otf')
+}
+
+/* Freight Family */
+@font-face {
+    font-family: 'FreightSemiBold';
+    src: url('fonts/Freight Neo Pro Semibold.otf');
+}
+@font-face {
+    font-family: 'FreightBookItalic';
+    src: url('fonts/Freight Neo Pro Book Italic.otf');
+}
+@font-face {
+    font-family: 'FreightMedium';
+    src: url('fonts/Freight Neo Pro Medium.otf');
+}
+@font-face {
+    font-family: 'FreightMediumItalic';
+    src: url('fonts/Freight Neo Pro Medium Italic.otf');
+}
 
 /**/
 /* defaults */
@@ -10,9 +60,10 @@
 .sky-form {
 	margin: 0;
 	outline: none;
-	box-shadow: 0 0 20px rgba(0,0,0,.3);
-	font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #666;
+	/* box-shadow: 0 0 20px rgba(0,0,0,.3); */
+	font-size: 13px/1.55;
+	font-family: "GroteskMedium";
+	color: #17244b;
 }
 .sky-form header {
 	display: block;
@@ -33,7 +84,7 @@
 	border-top: 1px solid rgba(0,0,0,.1);
 }
 .sky-form section {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	overflow: hidden;
 }
 .sky-form footer {
@@ -48,7 +99,7 @@
 	clear: both;
 }
 .sky-form a {
-	color: #2da5da;
+	/* color: #2da5da; */
 }
 .sky-form .label {
 	display: block;
@@ -90,13 +141,22 @@
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 0;
-	background: #fff;
+	
+	background: #fbf7f3;
 	font: 15px/23px 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #404040;
+	color: #17244b;
+	/* color: #404040; */
 	appearance: normal;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 }
+
+/* .sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea{
+	border: none;
+	border-bottom: 2px #b79b6e solid;
+} */
 .sky-form .progress {
 	float: right;
 	margin-top: 10px;
@@ -157,7 +217,7 @@
 	right: 2px;
 	width: 28px;
 	height: 35px;
-	background: #fff;
+	background: #fbf7f3;
 	pointer-events: none;
 }
 .sky-form .select i:after,
@@ -170,11 +230,11 @@
 }
 .sky-form .select i:after {
 	bottom: 12px;
-	border-top: 4px solid #404040;
+	border-top: 4px solid #b79b6e;
 }
 .sky-form .select i:before {
 	top: 12px;
-	border-bottom: 4px solid #404040;
+	border-bottom: 4px solid #b79b6e;
 }
 .sky-form .select select {
 	padding-right: 28px;
@@ -211,7 +271,8 @@
 	padding-left: 27px;
 	font-size: 15px;
 	line-height: 27px;
-	color: #404040;
+	color: #17244b;
+	/* color: #404040; */
 	cursor: pointer;
 }
 .sky-form .radio:last-child,
@@ -455,18 +516,23 @@
 	font-size: 15px;
 	line-height: 29px;
 	text-align: center;
+	border-color:#b79b6e;
+
 }
 .sky-form .icon-append {
 	right: 5px;
 	padding-left: 3px;
 	border-left-width: 1px;
 	border-left-style: solid;
+	border-color:#b79b6e;
+
 }
 .sky-form .icon-prepend {
 	left: 5px;
 	padding-right: 3px;
 	border-right-width: 1px;
 	border-right-style: solid;
+	/* border-color:#b79b6e; */
 }
 .sky-form .input .icon-prepend + input,
 .sky-form .textarea .icon-prepend + textarea {
@@ -486,8 +552,11 @@
 /* grid */
 /**/
 .sky-form .row {
-	margin: 0 -15px;
+	margin: 5px -15px;
 }
+/* .sky-form .row .low{
+	margin: 0 -15px;
+} */
 .sky-form .row:after {
 	content: '';
 	display: table;
@@ -518,6 +587,7 @@
 }
 .sky-form .col-6 {
 	width: 50%;
+	/* padding-top: 5px; */
 }
 .sky-form .col-7 {
 	width: 58.33%;
@@ -690,13 +760,22 @@
 .sky-form .toggle i,
 .sky-form .icon-append,
 .sky-form .icon-prepend {
-	border-color: #e5e5e5;
+	border-color: #b79b6e;
 	-ms-transition: border-color 0.3s;
 	-moz-transition: border-color 0.3s;
 	-webkit-transition: border-color 0.3s;
+	/* border: none; */
 }
+
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+	border: none;
+}
+
+
 .sky-form .toggle i:before {
-	background-color: #2da5da;	
+	background-color: #da2d2d;	
 }
 .sky-form .rating label {
 	color: #ccc;
@@ -705,8 +784,8 @@
 	-webkit-transition: color 0.3s;
 }
 .sky-form .button {
-	background-color: #2da5da;
-	opacity: 0.8;
+	background-color: #da2d2d;
+	/* opacity: 0.8; */
 	-ms-transition: opacity 0.2s;
 	-moz-transition: opacity 0.2s;
 	-webkit-transition: opacity 0.2s;
@@ -734,7 +813,7 @@
 }
 .sky-form .rating input + label:hover,
 .sky-form .rating input + label:hover ~ label {
-	color: #2da5da;
+	/* color: #2da5da; */
 }
 .sky-form .button:hover {
 	opacity: 1;
@@ -776,14 +855,14 @@
 /**/
 /* error state */
 /**/
-.sky-form .state-error input,
+/* .sky-form .state-error input,
 .sky-form .state-error select,
 .sky-form .state-error textarea,
 .sky-form .radio.state-error i,
 .sky-form .checkbox.state-error i,
 .sky-form .toggle.state-error i {
 	background: #fff0f0;
-}
+} */
 .sky-form .state-error select + i {
 	background: #fff0f0;
 	box-shadow: 0 0 0 12px #fff0f0;
@@ -809,16 +888,22 @@
 /**/
 /* success state */
 /**/
-.sky-form .state-success input,
+
+/* no green success color */
+
+/* .sky-form .state-success input,
 .sky-form .state-success select,
 .sky-form .state-success textarea,
 .sky-form .radio.state-success i,
 .sky-form .checkbox.state-success i,
 .sky-form .toggle.state-success i {
 	background: #f0fff0;
-}
+} */
+
+
+/* Leave commented out */
 .sky-form .state-success select + i {
-	background: #f0fff0;
+	/* background: #f0fff0; */
 }
 .sky-form .toggle.state-success input:checked + i {
 	background: #f0fff0;
