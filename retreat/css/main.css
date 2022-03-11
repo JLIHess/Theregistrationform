@@ -113,7 +113,7 @@ input:-webkit-autofill {
 }
 
 .body {
-	max-width: 650px;
+	max-width:700px;
 	margin: 0 auto;
 	padding: 40px;
 	box-sizing: content-box;
@@ -291,14 +291,20 @@ strong{
 /* ul{
 	list-style-type: none;
 } */
-.test{
+/* .test{
 	padding: 100px;
+} */
+.low{
+	text-align: center;
+}
+.stand{
+	padding-bottom: 10px;
 }
 li{
 	/* display: block; */
 	font-family: "GroteskLight";
 	/* background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
-	background-image: url(../icons/bullet_point.svg);
+	/* background-image: url(../icons/bullet_point.svg); */
 	/* background-color: #b79b6e; */
 	/* background-repeat: no-repeat;  */
 	/* height: 100px; */
