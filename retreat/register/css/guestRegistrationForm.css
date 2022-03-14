@@ -9,7 +9,7 @@ a:link, a:visited {color:#16244b; }
 		padding: 6px 15px;
 		/* height: 32px; */
 /* 		//background: #c98f7c url('../images/accordianClosed.png') no-repeat 8px 9px;
- */		background: #c98f7c;
+ */		background: #b79b6e;
 		color: white;
 		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 		font-size: 18px;
@@ -18,7 +18,7 @@ a:link, a:visited {color:#16244b; }
 	}
 	.guestDiv.open  > .headerDiv {
 /* 		//background: #16244b url('../images/accordianOpen.png') no-repeat 8px 8px;
- */		background: #c98f7c;
+ */		background: #b79b6e;
 	}
 	.roomDiv.open  > .headerDiv {
 /* 		//background: #c98f7c url('../images/accordianOpen.png') no-repeat 8px 8px;
@@ -35,7 +35,7 @@ a:link, a:visited {color:#16244b; }
 	}
 	.roomDiv > .contentDiv {
 		padding:25px; 
-		border: #c98f7c 8px solid;
+		/* border: #c98f7c 8px solid; */
 	}
 		.guestDiv {
 			width: 100%;
@@ -59,7 +59,7 @@ a:link, a:visited {color:#16244b; }
 					font-weight: bold;
 					font-size: 13px;
 					/* line-height: 21px; */
-					border-bottom: 1px solid #c98f7c;
+					border-bottom: 1px solid #b79b6e;
 					margin-top:16px;
 				}
 				.guestDiv > .contentDiv hr {
@@ -168,4 +168,9 @@ a:link, a:visited {color:#16244b; }
 		 .ui-widget-header { 
 		 background:#16244b; 
 		 border:1px solid #16244b;
+		 }
+
+
+		 label{
+			 color: #17244b;
 		 }
