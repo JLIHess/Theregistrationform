@@ -60,7 +60,7 @@
 	background-color: #b79b6e;	
 }
 .sky-form .button {
-	background-color: #29326e;
+	background-color: #b79b6e;
 }
 
 .sky-form .button.button-secondary {
@@ -94,7 +94,7 @@
 }
 .sky-form .rating input + label:hover,
 .sky-form .rating input + label:hover ~ label {
-	color: #222;
+	color: #b79b6e;
 }
 
 
@@ -107,7 +107,7 @@
 .sky-form .radio input:focus + i,
 .sky-form .checkbox input:focus + i,
 .sky-form .toggle input:focus + i {
-	border-color: #222;
+	border-color: #b79b6e;
 }
 
 

@@ -26,7 +26,7 @@ a:link, a:visited {color:#6f122d; }
 }
 .roomDiv > .contentDiv {
 	padding:25px;
-	border: #c98f7c 8px solid;
+	/* border: #c98f7c 8px solid; */
 }
 .guestDiv {
 	width: 100%;

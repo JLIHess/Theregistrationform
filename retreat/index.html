@@ -204,8 +204,10 @@
                                     Wardman Tower is not wheelchair accessible.
                                     </p>
                                 </section> -->
-                                <section class="room-type-area col col-6">
 
+
+                                <!-- <section class="room-type-area col col-6"> -->
+                                <section class="room-type-are col col-4">
                                     <label class="select ">
                                         <select class="input-room-type" name="room_type[0]">
                                             <option selected="selected" disabled="disabled">Please select</option>
@@ -232,6 +234,12 @@
                                         </div>
                                     </div>
                                 </section>
+
+                                <!-- adding for space -->
+                                <section class="room-type-are col col-2"></section>
+                                <!-- space -->
+
+
                                 <section class="room-description-area col col-6">
                                     <img src="/retreat/img/rooms/standard_room_atlanta.jpg" class="img-fluid stand">
                                     <p>
@@ -263,60 +271,66 @@
                         <div class="row">
                             <section class="guest-types-area col col-6">
                                 <div class="row">
-                                    <label class="label col col-3">Adult</label>
-                                    <section class="col col-6">
+                                    <label class="label col col-4">Adult</label>
+                                    <section class="col col-5">
                                         <label class="guest-type input state-disabled">
                                             <input class="guest-type-input guest-type-Adult low"
-                                                style="padding: 0px 45px;" name="guest_type[0][Adult]"
-                                                disabled="disabled" data-min="0" data-max="100" value="2" />
+                                                style="padding: 0px 45px; border-bottom:none;"
+                                                name="guest_type[0][Adult]" disabled="disabled" data-min="0"
+                                                data-max="100" value="2" />
                                         </label>
                                     </section>
                                     <div class="guest-price-Adult guest-price label col" style="padding-right: 0;">$4900
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <label class="label col col-3">Teen (Ages 14-17)</label>
-                                    <section class="col col-6">
+                                    <label class="label col col-4">Teen (Ages 14-17)</label>
+                                    <section class="col col-5">
                                         <label class="guest-type input state-disabled">
                                             <input class="guest-type-input guest-type-Teen low"
-                                                style="padding: 0px 45px;" name="guest_type[0][Teen]"
-                                                disabled="disabled" data-min="0" data-max="100" value="2" />
+                                                style="padding: 0px 45px; border-bottom:none;"
+                                                name="guest_type[0][Teen]" disabled="disabled" data-min="0"
+                                                data-max="100" value="2" />
                                         </label>
                                     </section>
                                     <div class="guest-price-Teen guest-price label col" style="padding-right: 0;">$3920
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <label class="label col col-3">Child (Ages 4-13)</label>
-                                    <section class="col col-6">
+                                    <label class="label col col-4">Child (Ages 4-13)</label>
+                                    <!-- <label class="label col col-3">Child (Ages 4-13)</label> -->
+                                    <section class="col col-5">
                                         <label class="guest-type input state-disabled">
                                             <input class="guest-type-input guest-type-Child low"
-                                                style="padding: 0px 45px;" name="guest_type[0][Child]"
-                                                disabled="disabled" data-min="0" data-max="100" value="0" />
+                                                style="padding: 0px 45px; border-bottom:none;"
+                                                name="guest_type[0][Child]" disabled="disabled" data-min="0"
+                                                data-max="100" value="0" />
                                         </label>
                                     </section>
                                     <div class="guest-price-Child guest-price label col" style="padding-right: 0;">$0
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <label class="label col col-3">Toddler (Ages 2-3)</label>
-                                    <section class="col col-6">
+                                    <label class="label col col-4">Toddler (Ages 2-3)</label>
+                                    <section class="col col-5">
                                         <label class="guest-type input state-disabled">
                                             <input class="guest-type-input guest-type-Toddler low"
-                                                style="padding: 0px 45px;" name="guest_type[0][Toddler]"
-                                                disabled="disabled" data-min="0" data-max="100" value="0" />
+                                                style="padding: 0px 45px; border-bottom:none;"
+                                                name="guest_type[0][Toddler]" disabled="disabled" data-min="0"
+                                                data-max="100" value="0" />
                                         </label>
                                     </section>
                                     <div class="guest-price-Toddler guest-price label col" style="padding-right: 0;">$0
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <label class="label col col-3">Infant (Ages 0-1)</label>
-                                    <section class="col col-6">
+                                    <label class="label col col-4">Infant (Ages 0-1)</label>
+                                    <section class="col col-5">
                                         <label class="guest-type input state-disabled">
                                             <input class="guest-type-input guest-type-Infant low"
-                                                style="padding: 0px 45px;" name="guest_type[0][Infant]"
-                                                disabled="disabled" data-min="0" data-max="100" value="0" />
+                                                style="padding: 0px 45px; border-bottom:none;"
+                                                name="guest_type[0][Infant]" disabled="disabled" data-min="0"
+                                                data-max="100" value="0" />
                                         </label>
                                     </section>
                                     <div class="guest-price-Infant guest-price label col" style="padding-right: 0;">$0
@@ -327,13 +341,13 @@
                             <section class="total-area col col-6">
                                 <label class="label" for="total">Total</label>
                                 <label class="input state-disabled ">
-                                    <i class="icon-prepend fa fa-usd"></i>
+                                    <i class="icon-prepend fa fa-usd "></i>
                                     <input class="input-total" type="text" name="total[0]" value="8,820.00" disabled />
                                     <input id="input-total-0" type="hidden" name="total[0]" value="8,820.00" />
                                 </label>
                                 <br />
                                 <!--<div class="tax-area col row">(Includes tax of $<span class="tax-text">0.00</span>-->
-                                <div class="tax-area col row">(This is an all inclusive rate<span class="tax-text"
+                                <div class="tax-area col row ">(This is an all inclusive rate<span class="tax-text"
                                         style="display:none">0.00</span>
                                     <span class="early-bird-discount-area" style="display:none"> including an early bird
                                         discount of
@@ -350,7 +364,7 @@
                             </section>
                             <section class="promo-area col col-6">
                                 <label class="input input-file">
-                                    <div class="button apply-promo-button">Apply</div>
+                                    <div class="button apply-promo-button">APPLY</div>
                                     <input class="input-promo" type="text" name="promo[0]" placeholder="Promo Code"
                                         value="" />
                                 </label>

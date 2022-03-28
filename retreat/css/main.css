@@ -152,20 +152,34 @@ input:-webkit-autofill {
 	padding: 5px 0 0 0;
 	margin: 0;
 }
-.icon-minus,
+/* .icon-minus,
 .icon-plus {
 
-}
+} */
 .sky-form .icon-append, .sky-form .icon-prepend {
     color: #b79b6e;
+	/* color: red; */
 	/* border: none; */
 }
+.sky-form .icon-append, .sky-form .icon-prepend .test {
+    /* color: #b79b6e; */
+	/* color: red; */
+	/* border: none; */
+}
+
 .sky-form .state-disabled .fa-plus,
 .sky-form .state-disabled .fa-minus,
 .sky-form .fa-plus.state-disabled,
 .sky-form .fa-minus.state-disabled {
     color: #b79b6e;
 }
+
+/* i.tests{
+	color: red;
+} */
+/* .test{
+	color: red;
+} */
 
 .sky-form .state-error input:-webkit-autofill {
     -webkit-box-shadow: inset 0 0 0 50px #fff0f0 !important;
@@ -276,7 +290,7 @@ input:-webkit-autofill {
 .mainheader {
 	/* text-align: left; */
 	position: relative;
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-bottom: 40px;
 }
 .mainheader .login-form {
@@ -321,10 +335,37 @@ strong{
 img{
 	margin-left: -15px;
 }
-li{
-	/* display: block; */
+ul{
+	/* list-style: none; */
 	font-family: "GroteskLight";
 	font-size: 14px;
+}
+/* ul > li:before{
+	content: "";
+	height: 1.5rem;
+	width: 1.5rem;
+	display: block;
+	float: left;
+	margin-left: -1.5rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+ul > li:before { 
+	clear: left;
+	background: url(../icons/bullet_point.svg);
+	background-size: cover;
+	background-position: center;
+	padding: .15rem;
+  } */
+
+  
+/* ul{
+	font-family: "GroteskLight";
+	font-size: 14px;
+	list-style-image:url(); */
+	/* width: 1px;
+	height: auto; */
 	/* background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
 	/* background-image: url(../icons/bullet_point.svg); */
 	/* background-color: #b79b6e; */
@@ -332,5 +373,5 @@ li{
 	/* height: 100px; */
 
 	/* list-style: url(../icons/bullet_point.svg); */
-}
+/* } */
 
