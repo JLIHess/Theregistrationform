@@ -113,7 +113,7 @@ input:-webkit-autofill {
 }
 
 .body {
-	max-width:700px;
+	max-width:1100px;
 	margin: 0 auto;
 	padding: 40px;
 	box-sizing: content-box;
@@ -206,6 +206,12 @@ input:-webkit-autofill {
 	display: none;
 }
 
+.beigeCenter{
+	width: 196px;
+	height: auto;
+	margin: auto;
+}
+
 @media screen and (max-width: 600px) {
 	.body {
 		padding: 20px;
@@ -268,8 +274,10 @@ input:-webkit-autofill {
 	cursor: pointer;
 }
 .mainheader {
-	text-align: left;
+	/* text-align: left; */
 	position: relative;
+	padding-top: 150px;
+	padding-bottom: 40px;
 }
 .mainheader .login-form {
 	position: absolute;
@@ -279,14 +287,19 @@ input:-webkit-autofill {
 .login-form {
 	color: #ffffff;
 	text-align: right;
-	font: 18px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: "GroteskRegular";
+	/* font: 18px/1.55 'Open Sans', Helvetica, Arial, sans-serif; */
 }
 .login-form a {
-	color: #b79b6e;
+
+	color: #ffffff;
 	text-decoration: none;
 }
 strong{
-	color: #b79b6e;
+	/* color: #b79b6e;
+	font-size: 14px;
+	font-family: "GroteskRegular"; */
+	/* margin-left: -15px; */
 }
 /* ul{
 	list-style-type: none;
@@ -299,10 +312,19 @@ strong{
 }
 .stand{
 	padding-bottom: 10px;
+	color: #b79b6e;
+	font-size: 14px;
+	font-family: "GroteskRegular";
+	margin-left: -15px;
+	/* padding-left: 0px; */
+}
+img{
+	margin-left: -15px;
 }
 li{
 	/* display: block; */
 	font-family: "GroteskLight";
+	font-size: 14px;
 	/* background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
 	/* background-image: url(../icons/bullet_point.svg); */
 	/* background-color: #b79b6e; */

@@ -61,9 +61,19 @@
 	margin: 0;
 	outline: none;
 	/* box-shadow: 0 0 20px rgba(0,0,0,.3); */
-	font-size: 13px/1.55;
-	font-family: "GroteskMedium";
+	/* font-size: 13px/1.55; */
+	/* font-family: "GroteskMedium";
+	color: #17244b; */
+}
+.sky-form h3{
+	font-family: "GroteskRegular";
 	color: #17244b;
+	font-size: 17px;
+}
+.sky-form label{
+	font-family: "GroteskLight";
+	color: #17244b;
+	font-size: 13px;
 }
 .sky-form header {
 	display: block;
@@ -98,9 +108,9 @@
 	display: table;
 	clear: both;
 }
-.sky-form a {
-	/* color: #2da5da; */
-}
+/* .sky-form a {
+	color: #2da5da;
+} */
 .sky-form .label {
 	display: block;
 	margin-bottom: 6px;
@@ -118,6 +128,8 @@
 	line-height: 15px;
 	color: #999;
 }
+/* .sky-form label .input{
+} */
 .sky-form .input,
 .sky-form .select,
 .sky-form .textarea,
@@ -272,8 +284,10 @@
 .sky-form .checkbox {
 	margin-bottom: 4px;
 	padding-left: 27px;
-	font-size: 15px;
+	/* font-size: 15px; */
+	font-size:13px;
 	line-height: 27px;
+	
 	color: #17244b;
 	/* color: #404040; */
 	cursor: pointer;
@@ -774,6 +788,8 @@
 .sky-form .select select,
 .sky-form .textarea textarea {
 	border: none;
+	border-bottom: #b79b6e solid 1px;
+
 }
 
 
